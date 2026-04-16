@@ -8,5 +8,6 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
                                     
 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+Source: https://www.asciiart.eu/one-line
 """)
-print("Source: https://www.asciiart.eu/one-line")
