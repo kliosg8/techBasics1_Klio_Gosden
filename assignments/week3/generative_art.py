@@ -3,7 +3,6 @@ from turtle import *
 width = 600
 height = 600
 noise = 1
-
 tracer(0, 0)
 size = 10
 bgcolor('lightblue')
