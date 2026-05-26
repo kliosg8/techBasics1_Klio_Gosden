@@ -94,43 +94,6 @@ while True:
 
 time.sleep(2)
 
-print("\nWhat kind of instrument most pleases your ear?")
-print("1) Violin")
-print("2) Trumpet")
-print("3) Piano")
-print("4) Drums")
-while True:
-    answer = input("Answer: ")
-
-    if answer == "1" or answer.lower() == "violin":
-        scores["Slytherin"] += 4
-        time.sleep(1)
-        print("\nViolin sounds good only when you play it ;)")
-        break
-
-    elif answer == "2" or answer.lower() == "trumpet":
-        scores["Hufflepuff"] += 4
-        time.sleep(1)
-        print("\nNobody chooses that one")
-        break
-
-    elif answer == "3" or answer.lower() == "piano":
-        scores["Ravenclaw"] += 4
-        time.sleep(1)
-        print("\nYou must be a ravenclaw...or maybe not, who knows? Not me")
-        break
-
-    elif answer == "4" or answer.lower() == "drums":
-        scores["Gryffindor"] += 4
-        time.sleep(1)
-        print("\nI was contemplating even putting that on the list")
-        break
-
-    else:
-        print("Wrong input! Try again!")
-
-time.sleep(2)
-
 print("\nWhat animal best represents you?")
 print("1) Owl")
 print("2) Snake")
@@ -161,44 +124,6 @@ while True:
         scores["Hufflepuff"] += 3
         time.sleep(1)
         print("\nPeople who chose cat tend to get bullied, i don't know why...watch out")
-        break
-
-    else:
-        print("Wrong input! Try again!")
-
-time.sleep(2)
-
-print("\nPick your drink")
-print("1) Energy drink")
-print("2) Hot chocolate")
-print("3) Coffee")
-print("4) Tea")
-while True:
-    answer = input("Answer: ")
-
-    if answer == "1" or answer.lower() == "energy drink":
-        scores["Slytherin"] += 6
-        time.sleep(1)
-        print(
-            "\nAre you sick of coffee drinkers warning you about your heart all the time?")
-        break
-
-    elif answer == "2" or answer.lower() == "hot chocolate":
-        scores["Hufflepuff"] += 6
-        time.sleep(1)
-        print("\nCan i offer some stormy day and under the covers with that?")
-        break
-
-    elif answer == "3" or answer.lower() == "coffee":
-        scores["Ravenclaw"] += 6
-        time.sleep(1)
-        print("\nAre you proud?")
-        break
-
-    elif answer == "4" or answer.lower() == "tea":
-        scores["Gryffindor"] += 6
-        time.sleep(1)
-        print("\nWith or without milk?")
         break
 
     else:
