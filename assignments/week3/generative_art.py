@@ -1,4 +1,5 @@
 from turtle import *
+import random
 
 width = 600
 height = 600
@@ -17,6 +18,8 @@ goto(-370, -400)
 forward(740)
 goto(0, -70)
 end_fill()
+
+
 
 penup()
 goto(-3, -80)
@@ -87,6 +90,8 @@ goto(15, -200)
 goto(-15, -200)
 end_fill()
 penup()
+
+
 
 penup()
 goto(-15, -210)
@@ -207,27 +212,7 @@ for i in range(4):
     end_fill()
 penup()
 
-#goto(30, -70)
-#pendown()
-#pencolor("#015e20") #mountain
-#fillcolor("#015e20")
-#begin_fill()
-#for i in range(4):
- #   goto(250, -70)
-  #  goto(140, 70)
-#end_fill()
-#penup()
 
-
-#goto(-200, -70)
-#pencolor("#015e20") #mountain
-#fillcolor("#015e20")
-#begin_fill()
-#for i in range(4):
- #   goto(-100, -10)
-  #  goto(-130, -70)
-   # end_fill()
-    #penup()
 
 goto(-200, 200)
 pendown()
@@ -266,4 +251,16 @@ circle(50, 360)
 end_fill()
 penup()
 
+goto(130, 80)
+pendown()
+colors = ["red", "yellow", "black", "purple", "darkblue", "green", "darkgreen"]
+for i in range(10):
+    for i in range(2):
+        forward(100)
+        right(60)
+        forward(100)
+        right(120)
+    right(36)
+    color(random.choice(colors))
+    
 done()
