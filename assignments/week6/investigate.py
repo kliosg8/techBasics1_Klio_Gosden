@@ -59,7 +59,6 @@ def pick_up(item_name):
             print("You picked up the", item_name)
 
 def drop(item_name):
-    global game_over
     for item in inventory:
         if item["name"] == item_name:
             inventory.remove(item)
