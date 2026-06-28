@@ -1,4 +1,4 @@
-# Template for Code Reading Exercise
+# Code Reading Exercise
 
 ## 1. Where did you find the code and why did you choose it? (Provide the link) 
 https://github.com/msaad1999/GREY--Python3-2D-Game/blob/master/GREY.py
